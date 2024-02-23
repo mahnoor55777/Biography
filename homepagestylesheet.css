@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .body{
+      background-color: black;
+  }
+  
+  .navbar{
+          padding: 15px;
+          border-bottom: 3px solid goldenrod;
+      }
+  
+      .logo{
+          color: goldenrod;
+          font-weight: bold;
+          font-size: 50px;
+          text-decoration: none;
+          margin-top: 2%;
+          margin-right: 5%;
+      }
+  
+      .logo:hover{
+          color: goldenrod;
+          font-weight: bold;
+          font-size: 50px;
+          text-decoration: none;
+      }
+  
+  .nav-link{
+          color: white;
+          font-style: italic;
+          font-size: 18px;
+          font-weight: bold;
+      }
+  
+      .nav-link:hover{
+          color: white;
+          border-bottom: 2px solid goldenrod;
+          font-size: 22px;
+          font-weight: bold;
+      }
+  
+      .navbarabc{
+          background-color: rgb(95, 3, 3);
+          padding: 7px;
+          padding-left: 30px;
+      }
+  
+      a{
+        text-decoration-line: none;
+      }
+  
+      .boxbox{
+          padding-top: 3%;
+          padding-bottom: 2%;
+      }
+  
+      .box1{
+          padding-top: 5%;
+      }
+  
+      blockquote{
+        text-align: center;
+        padding: 2%;
+        font-size: 135%;
+        color: white;
+        font-weight: bold;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+  
+      .span0{
+        color: rgb(95, 3, 3);
+      }
+  
+      .sp1{
+        color: goldenrod;
+        font-size: 70%;
+      }
+  
+      h1{
+          padding: 1%;
+          color: goldenrod;
+          font-weight: bold;
+          font-style: italic;
+          font-family: Verdana;
+         text-align: center;
+      }
+  
+      .btn-primary{
+          background-color: rgb(95, 3, 3);
+          border: 1px solid goldenrod;
+          margin-left: 45%;
+      }
+  
+      .btn-primary:hover{
+          background-color: transparent;
+          border: 1px solid goldenrod;
+          color: white;
+          font-weight: bold;
+      }
+  
+      @media only screen and (max-width: 990px) {
+        blockquote{
+          font-size: 95%;
+        }
+        .sp1{
+          font-size: 65%;
+        }
+  
+        #logoO{
+          margin-left: 0px;
+        }
+  
+        #top_x_div{
+          display: none;
+        }
+  
+      }
+  
+      .span111{
+        color: goldenrod;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+  
+      }
+  
+      .box{
+        word-spacing: 3px;
+        font-size: 105%;
+        color: white;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+      }
+  
+      .sp2{
+        color: goldenrod;
+        font-weight: bold;
+        font-size: 106%;
+      }
+  
+      .container{
+          padding: 2.5%;
+      }
+  
+      .target{
+        color: red;
+        text-decoration-line: none ;
+      }
+      
+      h2{
+        background-color: rgb(95, 3, 3);
+        text-align: center;
+        color: goldenrod;
+        font-weight: 500;
+        font-style: italic;
+      }
+  
+      th{
+        color: goldenrod;
+      }
+  
+              .target:link{
+                      color: goldenrod;
+              }
+              .target:visited{
+                      color: skyblue;
+              }
+              .target:hover{
+                      color: darkorange;
+              }
+              .target:active{
+                      color: aqua;
+              }
+  
+  
+   
+      .ulul .li{
+        list-style-type: none;
+      }
+  
+      #li{
+        color: white;
+      }
+  
+      #li:hover{
+        color: white;
+        border-bottom: 2px solid goldenrod;
+      }
+  
+      .links{
+        color: white;
+      }
+  
+      .ulul{
+        color: white;
+      }
+  
+      .ulul :hover{
+        color: white;
+        font-size: 19px;
+      }
+  
+      .h2h2{
+        color: white;
+        font-weight: bold;
+      }
+  
+      .ppp{
+        color: white;
+      }
+  
+      h4{
+        color: goldenrod;
+      }
+  
+      .footer{
+        background-color: rgb(95, 3, 3,0.3);
+      }
+  
+      #icons{
+        color: white;
+        font-size: 35px;
+      }
+  
+    .bi-facebook:hover{
+        color: goldenrod;
+        font-size: 30px;
+      }
+    
+    .bi-twitter:hover{
+        color: goldenrod;
+        font-size: 30px;
+    }
+    .bi-instagram:hover{
+        color: goldenrod;
+        font-size: 30px;
+    }
+  
+    .bi-youtube:hover{
+        color: goldenrod;
+        font-size: 30px;
+    }
+  
+    .bi-google:hover{
+        color: goldenrod;
+        font-size: 30px;
+    }
+  
+    #ex-link{
+      text-align: center;
+    }
+  
+    #www{
+      padding-top: 2%;
+      text-align: center;
+    }
+  
+    #fpp{
+      color: goldenrod;
+    }
+  
+    .website-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .website-counter {
+    background-color: goldenrod;
+    height: 30px;
+    width: 60px;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 1%;
+  }
+  #reset {
+    background-color: rgb(95, 3, 3);
+    cursor: pointer;
+    font-size: 10px;
+    padding: 8px 20px;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+  }
+  
+  #logoO{
+    margin-left: 15%;
+  }
+      
+  @media only screen and (max-width: 320px){
+    tr{
+      font-size: 10px;
+    }
+    #www{
+              display: none;
+          }
+  }
+  
+  .ululul{
+  
+      list-style-type: none;
+      float: left;
+      padding-left: 20px;
+      -webkit-animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite;
+      -moz-animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite;
+      -ms-animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite;
+      animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite
+    }
+    .ululul:hover{
+      -webkit-animation-play-state: paused;
+      -moz-animation-play-state: paused;
+      -ms-animation-play-state: paused;
+      animation-play-state: paused
+    }
+  
+    .lilili{
+      line-height: 25px;
+    }
+  
+    #all_news{
+    
+    background: rgb(218, 165, 32, 0.5);
+    width: 15%;
+    height: 32px;
+    margin: 40px auto 0;
+    overflow: hidden;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 3px;
+    position: relative;
+    -webkit-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5)
+  }
+  
+    #all_news a{
+      color: #fff;text-decoration: none;font-size: 13px
+    }
+    @-webkit-keyframes ticker{
+      0%{margin-top: 0}25%{margin-top: -26px}50%{margin-top: -52px}
+      75%{margin-top: -78px}100%{margin-top: 0}
+    }
+    @-moz-keyframes ticker{0%{margin-top: 0}25%{margin-top: -26px}
+      50%{margin-top: -52px}75%{margin-top: -78px}100%{margin-top: 0}
+    }
+    @-ms-keyframes ticker{0%{margin-top: 0}
+      25%{margin-top: -26px}50%{margin-top: -52px}75%{margin-top: -78px}100%{margin-top: 0}
+    }
+    @keyframes ticker{0%{margin-top: 0}25%{margin-top: -26px}
+    50%{margin-top: -52px}75%{margin-top: -78px}100%{margin-top: 0}
+  }
+  

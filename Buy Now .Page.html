@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="bootstrap.min.js"></script>
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<link rel="stylesheet" href="buystylesheet.css">
+  
+</head>
+<script>
+    $(document).ready(function(){
+     //create variable
+     var counts = 0;
+     $(".addtocart").click(function () {
+     //to number and increase to 1 on each click
+        counts += +1;
+        $(".cart-counter").animate({
+     //show span with number
+                  opacity: 1
+              }, 300, function () {
+     //write number of counts into span
+                  $(this).text(counts);
+              });
+          }); 
+  });
+   </script>
+<body class="body">
+
+    <nav class="navbar navbar-expand-lg">
+
+        <div class="container-fluid justify-content-center">
+            <a class="navbar-brand" href="#">
+                <img src="logologo.biography.png" alt="" width="200" class="d-inline-block align-text-top">
+              </a>
+        </div>
+      </nav>
+    
+      <nav class="navbar navbarabc navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" style="background-color: goldenrod;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="Untitled-one1.html"> HOME </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="GAllery.html"> GALLERY </a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="Books.html"> BOOKS </a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="Untitled-one1.html #award"> AWARD </a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="Untitled-one1.html #education"> EDUCATION </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="Untitled-one1.html #research"> RESEARCH </a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="Untitled-one1.html #carrier"> CAREER </a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="ABout uS.html"> ABOUT US </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="SiTe Map.html"> SITE-MAP </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ABout uS.html #contactuspage"> CONTACT US </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Buy Now .Page.html"> <i class="bi bi-cart4" id="cart"><span id="cartbb" class='cart-counter'>1</span></i> </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container" id="product-section">
+        <div class="row" id="row">
+         <div class="col-md-4">
+         <img src="book1.jpg" alt="">
+         </div>
+         <div class="col-md-8">
+         <h1 id="book001">
+          Cosmic Anger: Abdus Salam - The First Muslim Nobel Scientist
+         </h1> 
+         <p class="detail">This book presents a biography of Abdus Salam, the first Muslim to win
+          a Nobel Prize for Science (Physics 1979), who was nevertheless excommunicated
+          and branded as a heretic in his own country. His achievements are often overlooked, even besmirched.  </p>
+          <h4>By:Gordon Fraser</h4>
+          <button class="btn btn-dark btn-brand btn-full-width addtocart">
+            <a href="#cartbb" class="cartbbb"> Buy Now </a>
+          </button>
+         </div>
+        </div>
+        <div class="row" id="row">
+          <div class="col-md-4">
+          <img src="book2.jpg" alt="">
+          </div>
+          <div class="col-md-8">
+          <h1 id="book002">
+            Memorial Volume 0n Abdus Salam`s 90th Birthday
+          </h1> 
+          <p class="detail">In honor of one of the most prolific and exciting 
+            scientists of the second half of the last century, a memorial meeting was
+            organized by the Institute of Advanced Studies at Nanyang Technological University
+             for Professor Abdus Salam's 90th Birthday in January 2016.</p>
+            <h4>By:Lars Brink, Michael James Duff, Kok Khoo Phua</h4>
+           <button class="btn btn-dark btn-brand btn-full-width addtocart">
+            <a href="#cartbb" class="cartbbb"> Buy Now </a>
+           </button>
+          </div>
+         </div>
+         <div class="row" id="row">
+          <div class="col-md-4">
+          <img src="book3.jpg" alt="">
+          </div>
+          <div class="col-md-8">
+          <h1 id="book003">
+            Renaissance Of Sciences In Islamic Countries: Muhammad Abdus Salam
+          </h1> 
+          <p class="detail">Renaissance of Sciences in Arab and Islamic LandsThe Gulf University 
+            and Science in the Arab-Islamic CommonwealthThe Future of Science in IslamIslam and 
+            ScienceScientific Thinking: Between the Secularisation and the Transcendent, An Islamic 
+            ViewpointLiberty of Scientific Belief in Islam</p>
+          <h4>By:Abdus Salam</h4>
+           <button class="btn btn-dark btn-brand btn-full-width addtocart">
+            <a href="#cartbb" class="cartbbb"> Buy Now </a>
+           </button>
+          </div>
+         </div>
+    
+         <div class="row" id="row">
+          <div class="col-md-4">
+          <img src="book4.jpg" alt="">
+          </div>
+          <div class="col-md-8">
+          <h1 id="book004">
+            The Inspiring Life of Abdus Salam
+          </h1> 
+          <p class="detail">The inspiring Life of Abdus Salam tells the romantic story of the rise of 
+            Nobel Prize- winner Abdus Salam from the backyards of Jhang, Pakistan, to a dominant position 
+            in the twentieth century physics.. Told with deep insight and compassion, it is a story which
+            will captivate and move the reader. </p>
+          <h4>By:Mujahid Kamran</h4>
+           <button class="btn btn-dark btn-brand btn-full-width addtocart">
+             <a href="#cartbb" class="cartbbb"> Buy Now </a>
+           </button>
+          </div>
+         </div>
+         <div class="row" id="row">
+          <div class="col-md-4">
+          <img src="book5.jpg" alt="">
+          </div>
+          <div class="col-md-8">
+          <h1 id="book005">
+            Unification of Fundamental Forces
+          </h1> 
+          <p class="detail">This is an expanded version of the third Dirac Memorial Lecture, given 
+            in 1988 by Abdus Salam. Salam's lecture presents an overview of the 
+            developments in modern particle physics from its inception at the turn of the century to
+            the present theories seeking to unify all the fundamental forces.In addition, two previously
+            unpublished lectures by Paul Dirac, and Werner Heisenberg are included. </p>
+          <h4>By:Abdus Salam</h4>
+           <button class="btn btn-dark btn-brand btn-full-width addtocart">
+            <a href="#cartbb" class="cartbbb"> Buy Now </a>
+           </button>
+          </div>
+         </div>
+         <div class="row" id="row">
+          <div class="col-md-4">
+          <img src="book6.jpg" alt="">
+          </div>
+          <div class="col-md-8">
+          <h1 id="book006">
+            Fundamentals of Electrical Circuit Analysis
+          </h1> 
+          <p class="detail">This book is designed as an introductory course for undergraduate students,
+          in Electrical and Electronic, Mechanical, Mechatronics, Chemical and Petroleum engineering, 
+          who need fundamental knowledge of electrical circuits. Worked out examples have been presented
+          after discussing each theory. </p>
+          <h4>By:Abdus Salam,Quazi Mehbubar Rahman</h4>
+           <button class="btn btn-dark btn-brand btn-full-width addtocart">
+            <a href="#cartbb" class="cartbbb"> Buy Now </a>
+           </button>
+          </div>
+         </div>
+         <div class="row" id="row">
+          <div class="col-md-4">
+          <img src="book7.jpg" alt="">
+          </div>
+          <div class="col-md-7">
+          <h1 id="book007">
+            Fundamentals of Pneumatics and Hydraulics
+          </h1> 
+          <p class="detail">This book covers the basics of DC circuits, AC circuits, three-phase
+            power to understand the basics and controls of electro-hydraulics and electro-pneumatics.This book will 
+            be an excellent textbook for electromechanical, robotics, mechatronics, electrical control and mechanical 
+            students as well as for the professional who practices fluid power systems. </p>
+          <h4>By:Abdus Salam</h4>
+           <button class="btn btn-dark btn-brand btn-full-width addtocart">
+            <a href="#cartbb" class="cartbbb"> Buy Now </a>
+           </button>
+          </div>
+         </div>
+         <div class="row" id="row">
+          <div class="col-md-4">
+          <img src="book8.jpg" alt="">
+          </div>
+          <div class="col-md-8">
+          <h1 id="book008">
+            Electromagnetic Field Theories for Engineering
+          </h1> 
+          <p class="detail">A four year Electrical and Electronic engineering curriculum normally contains two
+            modules of electromagnetic field theories during the first two years. However, some curricula do not 
+            have enough slots to accommodate the two modules.  </p>
+          <h4>By:Abdus Salam</h4>
+           <button class="btn btn-dark btn-brand btn-full-width addtocart">
+            <a href="#cartbb" class="cartbbb"> Buy Now </a>
+           </button>
+          </div>
+         </div>
+         <div class="row" id="row">
+          <div class="col-md-4">
+          <img src="book9.jpg" alt="">
+          </div>
+          <div class="col-md-8">
+          <h1 id="book009">
+            The Abdus Salam Memorial Meeting
+          </h1> 
+          <p class="detail">The Abdus Salam Memorial Meeting was held from the 19th to the 22nd of November, 1997 on the 
+            first anniversary of the death of Prof Abdus Salam, Nobel laureate and Founder-Director of the International 
+            Centre for Theoretical Physics. It was an opportunity for many of his colleagues and students to pay homage to him.  </p>
+          <h4>By:Abdus Salam</h4>
+           <button class="btn btn-dark btn-brand btn-full-width addtocart">
+            <a href="#cartbb" class="cartbbb"> Buy Now </a>
+           </button>
+          </div>
+         </div>
+         <div class="row" id="row">
+          <div class="col-md-4">
+          <img src="book10.jpg" alt="">
+          </div>
+          <div class="col-md-8">
+          <h1 id="book0010">
+            Fundamentals of Electrical Machines
+          </h1> 
+          <p class="detail">Based upon years of teaching experience, M. Abdus Salam covers the 
+            fundamentals and important topics which can help students to develop a lasting and sound knowledge of electrical machines.</p>
+            <h4>By:Abdus Salam</h4>
+           <button class="btn btn-dark btn-brand btn-full-width addtocart">
+            <a href="#cartbb" class="cartbbb"> Buy Now </a>
+           </button>
+          </div>
+         </div>
+      </div>
+
+      <br>
+    
+      <footer class="footer">
+        <div class="box">
+          <div class="container">
+            <div class="row" style="text-align: center;">
+              <h2 class="h2h2"> About The Nobel Prize Organisation </h2>
+            </div>
+            <div class="box">
+             <div class="row">
+              <div class="col-md-4">
+                <h4 > The Nobel Foundation </h4>
+                <p class="ppp"> Tasked with a mission to manage Alfred 
+                  Nobel's fortune and has ultimate 
+                  responsibility for fulfilling the intentions of
+                   Nobel's will. </p>
+              </div>
+              <div class="col-md-4">
+                <h4> The Prize-Awarding Institutions </h4>
+                <p class="ppp"> For more than a century, these academic 
+                  institutions have worked independently to 
+                  select Nobel Prize laureates. </p>
+              </div>
+              <div class="col-md-4">
+                <h4> Nobel Prize Outreach Activities </h4>
+                <p class="ppp"> Several outreach organisations and activities 
+                  have been developed to inspire generations 
+                  and disseminate knowledge about the Nobel Prize. </p>
+              </div>
+             </div>
+              
+            </div>
+          </div>
+          
+          <div class="container">
+            <div class="box">
+             <div class="row">
+                <div class="col-md-3">
+                    <ul class="ulul">
+                      <li class="li"> <a href="#" id="li"> Privacy policy </a> </li>
+                      <li class="li"> <a href="#" id="li"> Technical support </a> </li>
+                      <li class="li"> <a href="#" id="li"> Terms of use </a> </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-2">
+                   <ul class="ulul">
+                     <li class="li"> <a href="Untitled-one1.html" id="li"> HOME </a> </li>
+                     <li class="li"> <a href="GAllery.html" id="li"> GALLERY </a> </li>
+                     <li class="li"> <a href="Books.html" id="li"> BOOKS </a> </li>
+                     <li class="li"> <a href="Untitled-one1.html #award" id="li"> AWARD </a> </li>
+                   </ul>
+                  </div>
+                  <div class="col-md-2">
+                    <ul class="ulul">
+                      <li class="li"> <a href="Untitled-one1.html #education" id="li"> EDUCATION </a> </li>
+                      <li class="li"> <a href="ABout uS.html" id="li"> ABOUT US </a> </li>
+                      <li class="li"> <a href="ABout uS.html #contactuspage" id="li"> CONTACT US </a> </li>
+                    </ul>
+                   </div>
+                  <div class="col-md-5">
+                    <div class="row" style="text-align: center;">
+                      <h4> JOIN US </h4>
+                    </div>
+              <div class="container" id="icons"  style="text-align: center;">
+    
+                <a href="https://www.facebook.com/" class="links"><i class="bi bi-facebook" ></i></a>
+                <a href="https://twitter.com/" class="links"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.instagram.com/" class="links"><i class="bi bi-instagram" ></i></a>
+                <a href="https://www.youtube.com/" class="links"><i class="bi bi-youtube" ></i></a>
+                <a href="https://mail.google.com/" class="links"><i class="bi bi-google" ></i></a>
+                
+              </div>
+    
+              </div>
+             </div>
+    
+            </div>
+            <div class="row" id="www">
+              <div class="box">
+                <p id="fpp"> <a href="Untitled-one1.html" id="fpp" style="text-decoration-line: none;">  WWW.BIOGRAPHY123.com/2022/ <i class="bi bi-globe"></i> </a> </p>
+              </div>
+              <div id="all_news"> 
+                <ul class="ululul"> 
+                 <li class="lilili"><a href="#"> August-2022 </a></li> 
+                 <li class="lilili"><a href="#"> 00:00 </a></li> 
+                 <li><a href="#"> Karachi - Pakistan </a></li>
+                <li class="lilili"><a href="#"> BIOGRAPHY </a></li> 
+               </ul>
+             </div>
+            </div>
+            <br>
+          </div>
+       
+        </div>
+      </footer>
+    
+    
+</body>
+</html>

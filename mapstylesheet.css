@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .body{
+      background-color: black;
+  }
+  
+  .navbar{
+          padding: 15px;
+          border-bottom: 3px solid goldenrod;
+      }
+  
+      .logo{
+          color: goldenrod;
+          font-weight: bold;
+          font-size: 50px;
+          text-decoration: none;
+          margin-top: 2%;
+          margin-right: 5%;
+      }
+  
+      .logo:hover{
+          color: goldenrod;
+          font-weight: bold;
+          font-size: 50px;
+          text-decoration: none;
+      }
+  
+  .nav-link{
+          color: white;
+          font-style: italic;
+          font-size: 18px;
+          font-weight: bold;
+      }
+  
+      .nav-link:hover{
+          color: white;
+          border-bottom: 2px solid goldenrod;
+          font-size: 22px;
+          font-weight: bold;
+      }
+  
+      .navbarabc{
+          background-color: rgb(95, 3, 3);
+          padding: 7px;
+          padding-left: 30px;
+      }
+  
+      @media only screen and (max-width: 990px){
+          #logoO{
+          margin-left: 0px;
+        }
+          }
+  
+          .footer{
+        background-color: rgb(95, 3, 3,0.3);
+      }
+  
+      #icons{
+        color: white;
+        font-size: 35px;
+      }
+  
+    .bi-facebook:hover{
+        color: goldenrod;
+        font-size: 30px;
+      }
+    
+    .bi-twitter:hover{
+        color: goldenrod;
+        font-size: 30px;
+    }
+    .bi-instagram:hover{
+        color: goldenrod;
+        font-size: 30px;
+    }
+  
+    .bi-youtube:hover{
+        color: goldenrod;
+        font-size: 30px;
+    }
+  
+    .bi-google:hover{
+        color: goldenrod;
+        font-size: 30px;
+    }
+  
+    #ex-link{
+      text-align: center;
+    }
+  
+    #www{
+      padding-top: 2%;
+      text-align: center;
+    }
+  
+    #fpp{
+      color: goldenrod;
+    }
+  
+    a{
+      text-decoration-line: none;
+    }
+  
+    .ulul .li{
+        list-style-type: none;
+      }
+  
+      #li{
+        color: white;
+      }
+  
+      #li:hover{
+        color: white;
+        border-bottom: 2px solid goldenrod;
+      }
+  
+      .ulul{
+        color: white;
+      }
+  
+      .ulul :hover{
+        color: white;
+        font-size: 19px;
+      }
+  
+      .h2h2{
+        color: white;
+        font-weight: bold;
+      }
+  
+      .ppp{
+        color: white;
+      }
+  
+      h4{
+        color: goldenrod;
+      }
+  
+      @media only screen and (max-width: 540px) {
+  
+          #divdiv{
+              border: none;
+          }
+  
+          #www{
+              display: none;
+          }
+  
+          .maindiv{
+            display: none;
+          }
+  
+          .site{
+            display: none;
+          }
+  
+      }
+  
+      #cart{
+        font-size: 18px;
+        padding: 2px;
+      }
+  
+      .links{
+          color: white;
+      }
+  
+      .maindiv{
+          text-align: center;
+          margin-top: 2%;
+  
+      }
+  
+      .line{
+          text-align: center;
+          color: white;
+      }
+  
+      .two{
+          display: flex;
+          list-style-type: none;
+      }
+  
+      .lili{
+          padding-left: 0.5%;
+      }
+  
+      .site{
+        background-color: rgb(95, 3, 3);
+        padding: 1%;
+      }
+  
+      .a-bcd{
+        color: black;
+        font-style: italic;
+        font-weight: bold;
+      }
+  
+  .ululul{
+  
+  list-style-type: none;
+  float: left;
+  padding-left: 20px;
+  -webkit-animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite;
+  -moz-animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite;
+  -ms-animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite;
+  animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite
+  }
+  .ululul:hover{
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  animation-play-state: paused
+  }
+  
+  .lilili{
+  line-height: 25px;
+  }
+  
+  #all_news{
+  
+  background: rgb(218, 165, 32, 0.5);
+  width: 15%;
+  height: 32px;
+  margin: 40px auto 0;
+  overflow: hidden;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 3px;
+  position: relative;
+  -webkit-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5);
+  -moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5);
+  box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5)
+  }
+  
+  #all_news a{
+  color: #fff;text-decoration: none;font-size: 13px
+  }
+  @-webkit-keyframes ticker{
+  0%{margin-top: 0}25%{margin-top: -26px}50%{margin-top: -52px}
+  75%{margin-top: -78px}100%{margin-top: 0}
+  }
+  @-moz-keyframes ticker{0%{margin-top: 0}25%{margin-top: -26px}
+  50%{margin-top: -52px}75%{margin-top: -78px}100%{margin-top: 0}
+  }
+  @-ms-keyframes ticker{0%{margin-top: 0}
+  25%{margin-top: -26px}50%{margin-top: -52px}75%{margin-top: -78px}100%{margin-top: 0}
+  }
+  @keyframes ticker{0%{margin-top: 0}25%{margin-top: -26px}
+  50%{margin-top: -52px}75%{margin-top: -78px}100%{margin-top: 0}
+  }
+  
+  

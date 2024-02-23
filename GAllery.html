@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ( GALLERY ) </title>
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="bootstrap.min.js"></script>
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<link rel="stylesheet" href="gallerystylesheet.css">
+
+</head>
+<body class="body">
+    
+  <nav class="navbar navbar-expand-lg">
+
+    <div class="container-fluid justify-content-center">
+        <a class="navbar-brand" href="#">
+            <img src="logologo.biography.png" alt="" width="200" class="d-inline-block align-text-top">
+          </a>
+    </div>
+  </nav>
+
+  <nav class="navbar navbarabc navbar-expand-lg">
+    <div class="container-fluid">
+      <button class="navbar-toggler" style="background-color: goldenrod;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="Untitled-one1.html"> HOME </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="GAllery.html"> GALLERY </a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link" href="Books.html"> BOOKS </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Untitled-one1.html #award"> AWARD </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Untitled-one1.html #education"> EDUCATION </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Untitled-one1.html #research"> RESEARCH </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Untitled-one1.html #carrier"> CAREER </a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="ABout uS.html"> ABOUT US </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="SiTe Map.html"> SITE-MAP </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ABout uS.html #contactuspage"> CONTACT US </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Buy Now .Page.html"> <i class="bi bi-cart4" id="cart"> </i> </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+      <br>
+      
+      <!-- The four columns -->
+      <div class="row">
+        <div class="column">
+          <img src="img2400.png" alt="img2400.png" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="DIPLOMA400.png" alt="DIPLOMA400.png" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="AB400.png" alt="AB400.png" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="collage400.png" alt="collage400.png" style="width:100%" onclick="myFunction(this);">
+        </div>
+      </div>
+      
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+      </div>
+      
+      <script>
+      function myFunction(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        var imgText = document.getElementById("imgtext");
+        expandImg.src = imgs.src;
+        imgText.innerHTML = imgs.alt;
+        expandImg.parentElement.style.display = "block";
+      }
+      </script>
+
+      <!-- The four columns -->
+      <div class="row">
+        <div class="column">
+          <img src="childhood400.png" alt="childhood400.png" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="collage st john400.png" alt="collage st john400.png" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="birth certificate400.png" alt="birth certificate400.png" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="collage400.png" alt="collage400.png" style="width:100%" onclick="myFunction(this);">
+        </div>
+      </div>
+      
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+      </div>
+      
+      <script>
+      function myFunction(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        var imgText = document.getElementById("imgtext");
+        expandImg.src = imgs.src;
+        imgText.innerHTML = imgs.alt;
+        expandImg.parentElement.style.display = "block";
+      }
+      </script>
+
+      <!-- The four columns -->
+      <div class="row">
+        <div class="column">
+          <img src="International400.png" alt="International400.png" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="colleagues400.png" alt="colleagues400.png" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="one.400.png" alt="one.400.png" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="teo.400.png" alt="teo.400.png" style="width:100%" onclick="myFunction(this);">
+        </div>
+      </div>
+      
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+      </div>
+      
+      <script>
+      function myFunction(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        var imgText = document.getElementById("imgtext");
+        expandImg.src = imgs.src;
+        imgText.innerHTML = imgs.alt;
+        expandImg.parentElement.style.display = "block";
+      }
+      </script>
+
+       <!-- The four columns -->
+       <div class="row">
+        <div class="column">
+          <img src="speech400.png" alt="speech400.png" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="download13.400.png" alt="download13.400.png" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="download15.400.png" alt="download15.400.png" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="download14.400.png" alt="download14.400.png" style="width:100%" onclick="myFunction(this);">
+        </div>
+      </div>
+      
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+      </div>
+      
+      <script>
+      function myFunction(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        var imgText = document.getElementById("imgtext");
+        expandImg.src = imgs.src;
+        imgText.innerHTML = imgs.alt;
+        expandImg.parentElement.style.display = "block";
+      }
+      </script>
+   
+    <!-- The four columns -->
+    <div class="row">
+      <div class="column">
+        <img src="download16.400.png" alt="download16.400.png" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="download17.400.png" alt="download17.400.png" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="download18.400.png" alt="download18.400.png" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="download20.400.png" alt="download20.400.png" style="width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+    
+    <div class="container">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      <img id="expandedImg" style="width:100%">
+      <div id="imgtext"></div>
+    </div>
+    
+    <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      var imgText = document.getElementById("imgtext");
+      expandImg.src = imgs.src;
+      imgText.innerHTML = imgs.alt;
+      expandImg.parentElement.style.display = "block";
+    }
+    </script>
+
+     <!-- The four columns -->
+     <div class="row">
+      <div class="column">
+        <img src="400pic1.png" alt="400pic1.png" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="400pic2.png" alt="400pic2.png" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="400pic3.png" alt="400pic3.png" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="three.400.png" alt="three.400.png" style="width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+    
+    <div class="container">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      <img id="expandedImg" style="width:100%">
+      <div id="imgtext"></div>
+    </div>
+    
+    <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      var imgText = document.getElementById("imgtext");
+      expandImg.src = imgs.src;
+      imgText.innerHTML = imgs.alt;
+      expandImg.parentElement.style.display = "block";
+    }
+    </script>
+  
+  <!-- The four columns -->
+  <div class="row">
+    <div class="column">
+      <img src="img2400.png" alt="img2400.png" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="DIPLOMA400.png" alt="DIPLOMA400.png" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="AB400.png" alt="AB400.png" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="collage400.png" alt="collage400.png" style="width:100%" onclick="myFunction(this);">
+    </div>
+  </div>
+  
+  <div class="container">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <img id="expandedImg" style="width:100%">
+    <div id="imgtext"></div>
+  </div>
+  
+  <script>
+  function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+  }
+  </script>
+
+  <!-- The four columns -->
+  <div class="row">
+    <div class="column">
+      <img src="childhood400.png" alt="childhood400.png" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="collage st john400.png" alt="collage st john400.png" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="birth certificate400.png" alt="birth certificate400.png" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="collage400.png" alt="collage400.png" style="width:100%" onclick="myFunction(this);">
+    </div>
+  </div>
+  
+  <div class="container">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <img id="expandedImg" style="width:100%">
+    <div id="imgtext"></div>
+  </div>
+  
+  <script>
+  function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+  }
+  </script>
+
+  <!-- The four columns -->
+  <div class="row">
+    <div class="column">
+      <img src="International400.png" alt="International400.png" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="colleagues400.png" alt="colleagues400.png" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="one.400.png" alt="one.400.png" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="teo.400.png" alt="teo.400.png" style="width:100%" onclick="myFunction(this);">
+    </div>
+  </div>
+  
+  <div class="container">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <img id="expandedImg" style="width:100%">
+    <div id="imgtext"></div>
+  </div>
+  
+  <script>
+  function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+  }
+  </script>
+
+   <!-- The four columns -->
+   <div class="row">
+    <div class="column">
+      <img src="speech400.png" alt="speech400.png" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="download13.400.png" alt="download13.400.png" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="download15.400.png" alt="download15.400.png" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="download14.400.png" alt="download14.400.png" style="width:100%" onclick="myFunction(this);">
+    </div>
+  </div>
+  
+  <div class="container">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <img id="expandedImg" style="width:100%">
+    <div id="imgtext"></div>
+  </div>
+  
+  <script>
+  function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+  }
+  </script>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="download16.400.png" alt="download16.400.png" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="download17.400.png" alt="download17.400.png" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="download18.400.png" alt="download18.400.png" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="download20.400.png" alt="download20.400.png" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+ <!-- The four columns -->
+ <div class="row">
+  <div class="column">
+    <img src="400pic1.png" alt="400pic1.png" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="400pic2.png" alt="400pic2.png" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="400pic3.png" alt="400pic3.png" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="three.400.png" alt="three.400.png" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+       
+</body>
+</html>
